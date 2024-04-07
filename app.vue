@@ -1,10 +1,13 @@
 <template>
   <div>
-    <primary-layout></primary-layout>
+    <!-- <primary-layout></primary-layout> -->
+    <!-- <acavm-page></acavm-page> -->
+    <NuxtPage />
   </div>
 </template>
 <script>
-import PrimaryLayout from './src/layouts/PrimaryLayout'
+// import PrimaryLayout from './src/layouts/PrimaryLayout'
+// import AcavmPage from './src/acavm/aca'
 import { onMounted } from 'vue'
 import {
   initAccordions,
@@ -36,7 +39,8 @@ onMounted(() => {
 
 export default {
   components: {
-    PrimaryLayout
+    // AcavmPage
+    // PrimaryLayout
   }
 }
 </script>
